@@ -28,27 +28,6 @@ Product.init(
       type: DataTypes.INTEGER,
       defaultValue: 0,
     },
-    category_id: {
-      type: DataTypes.INTEGER,
-      references: {
-        model: 'category',
-        key: 'id',
-      },
-    },
-    productTag_id: {
-      type: DataTypes.INTEGER,
-      references: {
-        model: 'productTag',
-        key: 'id',
-      },
-    },
-    tag_id: {
-      type: DataTypes.INTEGER,
-      references: {
-        model: 'tag',
-        key: 'id',
-      },
-    },
   },
   {
     sequelize,

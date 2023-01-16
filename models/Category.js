@@ -7,6 +7,13 @@ class Category extends Model {}
 Category.init(
   {
     // define columns
+    category_id: {
+      type: DataTypes.INTEGER,
+      references: {
+        model: 'product',
+        key: 'id',
+      },
+    },
   },
   {
     sequelize,
