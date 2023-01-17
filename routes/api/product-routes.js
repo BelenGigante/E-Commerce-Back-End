@@ -48,7 +48,7 @@ router.post('/', async (req, res) => {
         product_name: '',
         price: 0,
         stock: 0,
-        tagIds: ['','' , '', '']
+        tagIds: []
       });
       res.json(productData); 
     }catch (err){
