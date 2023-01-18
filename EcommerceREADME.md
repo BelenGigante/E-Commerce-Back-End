@@ -20,6 +20,14 @@ E-Commerce Back End is a database created with a combination of technologies (My
 
 7 When the terminal returns the message 'App listening on port 3001!' you are ready to open Insomnia.
 
+
 ## Visuals
 
-![Refer to video for Insomnia usage instructions]()
+[Refer to video for Visual Studio instructions in Terminal ](./e-commerce-vs.webm)
+
+[Refer to video for view all, find by id, create new, delete and modify products in Insomnia](./insomnia-products.webm)
+
+[Refer to video for view all, find by id, create new, delete and modify categories in Insomnia](./insomnia-category.webm)
+
+[Refer to video for view all, find by id, create new, delete and modify tags in Insomnia](./insomnia-tags.webm)
+
